@@ -65,7 +65,7 @@ namespace RecupSegundoParcial.Windows
             r.Tag = objeto;
 
         }
-        
+
         private DataGridViewRow ConstruirFila()
         {
             DataGridViewRow r = new DataGridViewRow();
@@ -156,7 +156,7 @@ namespace RecupSegundoParcial.Windows
             var stringValor = Microsoft.VisualBasic.Interaction.InputBox("Ingrese el valor a filtrar.",
                 "Filtrar por mayor o igual",
                 "0", 400, 400);
-            if(!int.TryParse(stringValor,out int valor))
+            if (!int.TryParse(stringValor, out int valor))
             {
                 return;
             }

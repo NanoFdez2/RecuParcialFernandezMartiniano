@@ -69,7 +69,7 @@ namespace RecupSegundoParcial.Windows
                 objeto.SetLado(int.Parse(textBox1.Text));
                 objeto.ColorRelleno = (ColorRelleno)cboRelleno.SelectedItem;
                 objeto.TipoDeBorde = (TipodeBorde)cboBordes.SelectedItem;
-                DialogResult= DialogResult.OK;
+                DialogResult = DialogResult.OK;
             }
         }
 
@@ -94,6 +94,11 @@ namespace RecupSegundoParcial.Windows
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.Cancel;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

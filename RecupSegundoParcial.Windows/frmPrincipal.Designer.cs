@@ -236,6 +236,7 @@
             // 
             txtCantidad.Location = new Point(137, 17);
             txtCantidad.Name = "txtCantidad";
+            txtCantidad.ReadOnly = true;
             txtCantidad.Size = new Size(100, 23);
             txtCantidad.TabIndex = 1;
             txtCantidad.TextChanged += txtCantidad_TextChanged;
